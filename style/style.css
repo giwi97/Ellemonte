@@ -117,11 +117,44 @@
 .text a:hover {
     letter-spacing: 6px;
     color: white;
-    background-color: black;
+    background-color: rgb(46, 43, 43);
 }
 
 .social {
     position: absolute;
     bottom: 20px;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    filter: invert(1);
+    margin-right: 20px;
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+
+.social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+}
+
+@media(max-width: 991px) {
+    .showcase, .showcase header {
+        padding: 40px;
+    }
+
+    .text h2 {
+        font-size: 3em;
+    }
+
+    .text h3 {
+        font-size: 2em;
+    }
 }
