@@ -119,3 +119,9 @@
     color: white;
     background-color: black;
 }
+
+.social {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+}
