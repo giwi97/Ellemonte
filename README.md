@@ -5,4 +5,4 @@
 
 ### Desktop view
 
-![Alt text](assets/111.gif /GIF)
+![caption](assets/111.gif/GIF "Desktop view")
